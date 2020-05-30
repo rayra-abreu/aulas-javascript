@@ -16,3 +16,23 @@ console.log(frase.toUpperCase())
 console.log(frase.toLowerCase())
 console.log(n1*n2)
 //alert(frase.replace("Japão", "Brasil"))
+
+var lista=['maçã', 'pêra', 'laranja']
+console.log(lista[0])
+lista.push('uva')
+console.log(lista)
+lista.pop()
+console.log(lista)
+console.log("Tamanho da lista: "+lista.length)
+console.log(lista.reverse())
+console.log(lista.toString())
+console.log(lista.toString()[0])
+console.log(lista.join(' - '))
+
+var fruta={nome:'Maçã', cor:'vermelho'}
+console.log(fruta)
+console.log(fruta.nome)
+
+var frutas=[{nome:'Maçã', cor:'vermelho'}, {nome:'Uva', cor:'verde'}]
+console.log(frutas)
+console.log(frutas[1].nome)
