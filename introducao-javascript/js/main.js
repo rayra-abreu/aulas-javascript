@@ -36,3 +36,26 @@ console.log(fruta.nome)
 var frutas=[{nome:'Maçã', cor:'vermelho'}, {nome:'Uva', cor:'verde'}]
 console.log(frutas)
 console.log(frutas[1].nome)
+
+var id=prompt('Qual a sua idade? ')
+if(id>=18){
+  alert('Maior de idade')
+}else{
+  alert('Menor de idade')
+}
+
+var count=0
+
+while(count<=5){
+  console.log('while: '+count)
+  count++
+}
+
+var i
+for(i=0; i<=5; i++){
+  console.log('for: '+i)
+}
+
+var d=new Date()
+console.log(d)
+console.log('Dia: '+d.getDate()+', Mês: '+(d.getMonth()+1)+', Ano: '+d.getFullYear())
