@@ -59,3 +59,28 @@ for(i=0; i<=5; i++){
 var d=new Date()
 console.log(d)
 console.log('Dia: '+d.getDate()+', Mês: '+(d.getMonth()+1)+', Ano: '+d.getFullYear())
+
+function soma(n1, n2){
+  return n1+n2
+}
+
+console.log('Soma: '+soma(5, 10))
+
+function substituir(frase, nome, novoNome){
+  return frase.replace(nome, novoNome)
+}
+
+console.log(substituir('O João comeu melão.', 'João', 'Astolfo'))
+
+function validaIdade(idade){
+  var validar
+  if(idade>=18){
+    validar=true
+  }else{
+    validar=false
+  }
+  return validar
+}
+
+var idad=prompt('Qual a sua idade?')
+alert(validaIdade(idad))
