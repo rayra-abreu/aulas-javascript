@@ -84,3 +84,37 @@ function validaIdade(idade){
 
 var idad=prompt('Qual a sua idade?')
 alert(validaIdade(idad))
+
+function cliqueMe(){
+  //alert('Clicou')
+  document.getElementById('subtitulo').innerHTML='Clicou'
+}
+
+function redirecionar(){
+  window.open('https://github.com')
+  window.location.href='https://github.com'
+}
+
+function trocar(){
+  document.getElementById('troca').innerHTML='Passou'
+}
+
+function voltar(){
+  document.getElementById('troca').innerHTML='Retirou o cursor'
+}
+
+function passar(elemento){
+  elemento.innerHTML='Passou'
+}
+
+function retirar(elemento){
+  elemento.innerHTML='Retirou o cursor'
+}
+
+function carregar(){
+  alert('Carregou')
+}
+
+function valor(elemento){
+  alert('Valor: '+elemento.value)
+}
