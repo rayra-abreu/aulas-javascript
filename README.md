@@ -1,5 +1,5 @@
 # Atividades:
 - Introdução ao JavaScript
-- Manipulação de elementos
+  - Manipulação de elementos
 
 ## Digital Innovation One
